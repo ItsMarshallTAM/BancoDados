@@ -1,6 +1,6 @@
 <?php
     $hostname = "localhost";
-    $bancodedados = "registro";
+    $bancodedados = "date";
     $usuario = "root";
     $senha = "";
 
@@ -9,5 +9,5 @@
         echo "falha ao conectar:(" . $mysqli->connect_errno . ")" . $mysqli->connect_errno;
     }
     else
-        echo "Conectado ao Banco de Dados";
+        echo "Conectado";
 ?>
